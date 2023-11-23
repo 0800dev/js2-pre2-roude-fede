@@ -1,0 +1,113 @@
+#barra-inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg-grey {
+    background-color: grey;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 70px;
+}
+
+#sections-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.secciones {
+    font-family:'Six Caps', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+#segmentos-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#section-remeras, #section-jeans, #section-hoodies, #section-accs {
+    
+    background-size: cover;
+    border-radius: 3%;
+    border-style: inset;
+    margin-top: 6%;
+}
+
+#section-remeras {
+    background-image: url(../assets/images/tshirts/estampadas/prometeonegraback.webp);
+}
+
+#section-jeans {
+    background-image: url(../assets/images/jeans/160-jeans-mom-miami2.jpg);
+}
+
+#section-hoodies {
+    background-image: url(../assets/images/hoodies/hoodieestampa/buzo-over-toca-icarus2.webp)
+}
+
+#section-accs {
+    background-image: url(../assets/images/accesories/rinoblack2.webp);
+}
+
+.product-card {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-productos {
+    display: flex;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+    align-items: center;
+    text-justify:center;
+   
+}
+ 
+.titulo-productos-container {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen-section {
+    width: 400px;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.footer-item {
+    font-family: 'Six Caps',sans-serif;
+    font-size: 1.9rem;
+    margin-left: 15px;
+}
+
+footer { 
+    bottom:0;
+}
+
+@media screen and (min-width=800px) {
+    
+.exhibidor {
+    display: flex;
+}
+}
+/* font-family: 'Graduate', serif;
+font-family: 'Six Caps', sans-serif; */ 
